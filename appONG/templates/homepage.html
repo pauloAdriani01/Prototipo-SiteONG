@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Home - ONG Seringueiras</title>
+    <link rel="stylesheet" href="{% static 'css/csshomepage.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="{% url 'loginpage' %}">Login</a>
+        </nav>
+        <h1>Seja muito bem vindo(a) ao Website da ONG Seringueiras!</h1>
+    </header>
+    <section>
+        <div id="secao1">
+            <h1>Seção 1</h1>
+        </div>
+        <div id="secao2">
+            <h1>Seção 2</h1>
+        </div>
+        <div id="secao3">
+            <h1>Seção 3</h1>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Galerinha do Terceirão de Meca - 2024</p>
+    </footer>
+</body>
+</html>

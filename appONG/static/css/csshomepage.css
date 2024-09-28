@@ -1,0 +1,20 @@
+body {
+    background: white;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
