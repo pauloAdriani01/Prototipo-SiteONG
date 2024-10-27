@@ -195,3 +195,70 @@ footer p {
         font-size: 1em;
     }
 }
+
+
+.donate-btn {
+    padding: 10px 20px;
+    margin-left: 20px;
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #d4e157; /* Cor de fundo do botão */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s;
+}
+
+
+.donate-btn:hover {
+    background-color: #094619; /* Cor ao passar o mouse */
+    color: #d4e157; /* Cor do texto ao passar o mouse */
+    transform: translateY(-2px);
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espaçamento entre os links */
+}
+
+
+.contact-link {
+    color: #d4e157; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 1.2em; /* Tamanho da fonte */
+    transition: color 0.3s; /* Efeito de transição */
+}
+
+
+.contact-link:hover {
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #094619; /* Cor do rodapé */
+    color: #d4e157;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
