@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que faz?</title>
+    <style>
+        body {
+            background-color: #0b4f1e;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #083b14;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #d4e157;
+        }
+        h2 {
+            font-size: 36px;
+            text-align: center;
+            color: #d4e157;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+        .container {
+            background-color: #094619;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .container p {
+            margin-bottom: 12px;
+            font-size: 16px;
+            line-height: 1.4;
+        }
+
+        .title {
+            font-weight: bold;
+            color: #d4e157;
+        }
+
+        @media (max-width: 768px) {
+            h2 {
+                font-size: 28px;
+            }
+
+            .container p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="{% url 'homepage' %}">Início</a></li>
+        </ul>
+    </nav>
+    <h2>O que faz?</h2>
+    <div class="container">
+        <p><span class="title">Educação e Capacitação:</span> Organizar palestras, cursos e oficinas sobre diversos temas de interesse da comunidade, como educação financeira, saúde, cidadania, e habilidades profissionais.</p>
+    </div>
+    <div class="container">
+        <p><span class="title">Apoio Social:</span> Criar redes de apoio para moradores em situação de vulnerabilidade, promovendo campanhas de arrecadação de alimentos, roupas, e outros recursos.</p>
+    </div>
+    <div class="container">
+        <p><span class="title">Mediação de Conflitos:</span> Mediar conflitos entre moradores, buscando soluções pacíficas e acordos que beneficiem a convivência comunitária.</p>
+    </div>
+    <div class="container">
+        <p><span class="title">Gestão de Fundos e Doações:</span> Gerir recursos financeiros oriundos de contribuições dos moradores, eventos ou doações, garantindo transparência na utilização desses recursos.</p>
+    </div>
+    <div class="container">
+        <p><span class="title">Representação dos Moradores:</span> Representar os interesses dos moradores em reuniões com autoridades públicas, como prefeitos, vereadores, e secretarias municipais.</p>
+    </div>
+    <div class="container">
+        <p><span class="title">Organização de Reuniões e Assembleias:</span> Promover reuniões regulares para discutir problemas, propor soluções e planejar ações em benefício do bairro.</p>
+    </div>
+    <div class="container">
+        <p><span class="title">Segurança Comunitária:</span> Organizar projetos de segurança, como rondas de vigilância, instalação de câmeras de segurança, e programas de vizinhança solidária.</p>
+    </div>
+    <div class="container">
+        <p><span class="title">Melhorias na Infraestrutura:</span> Solicitar melhorias na infraestrutura do bairro, como pavimentação de ruas, melhorias na iluminação pública, limpeza urbana, saneamento básico, e manutenção de praças e parques.</p>
+    </div>
+    <div class="container">
+        <p><span class="title">Eventos Culturais e Sociais:</span> Promover eventos culturais, como festas, feiras, mutirões de limpeza, e atividades esportivas, que incentivem a integração entre os moradores.</p>
+    </div>
+    <div class="container">
+        <p><span class="title">Projetos Ambientais:</span> Desenvolver projetos de preservação ambiental, como plantio de árvores, hortas comunitárias, e campanhas de conscientização sobre reciclagem e sustentabilidade.</p>
+    </div>
+</body>
+</html>

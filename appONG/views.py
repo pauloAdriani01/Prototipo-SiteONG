@@ -5,3 +5,9 @@ def homepage(request):
 
 def OqueONG (request):
     return render(request, 'OqueONG.html')
+
+def OqueFaz (request):
+    return render(request, 'OqueFaz.html')
+
+def DoacoesONG (request):
+    return render(request, 'DoacoesONG.html')

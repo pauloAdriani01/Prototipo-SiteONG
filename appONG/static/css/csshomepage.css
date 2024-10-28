@@ -68,24 +68,6 @@ h1 {
     margin: 30px 0;
 }
 
-
-.info-block {
-    width: 45%;
-    text-align: center;
-    background-color: #0b4f1e;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-
-.info-block:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-
 .info-btn {
     display: inline-block;
     padding: 10px 20px;
@@ -248,17 +230,3 @@ footer {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

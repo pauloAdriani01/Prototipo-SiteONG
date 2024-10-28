@@ -13,18 +13,18 @@
             <div class="header-content">
                 <img src="{% static 'img/logo.png' %}" alt="Logo ONG Parque da Seringueira" class="logo">
                 <h1>ONG Parque da Seringueira</h1>
-                <button class="donate-btn">Doações</button>
+                <a class="DoacoesONGLink" href="{% url 'DoacoesONG' %}">O que é?</a>
             </div>
         </header>
        
         <section class="info">
             <div class="info-block">
-                <button class="info-btn">O que é?</button>
+                <a class="OqueONGLink" href="{% url 'OqueONG' %}">O que é?</a>
                 <img src="{% static 'img/img-1.jpg' %}" alt="Imagem sobre O que é?" class="info-img">
                 <p class="info-text">A ONG Parque da Seringueira é uma organização voltada para o bem-estar social, promovendo iniciativas que impactam positivamente a comunidade local.</p>
             </div>
             <div class="info-block">
-                <button class="info-btn">O que faz?</button>
+                <a class="OqueFazLink" href="{% url 'OqueFaz' %}">O que faz?</a>
                 <img src="{% static 'img/img-2.jpg' %}" alt="Imagem sobre O que faz?" class="info-img">
                 <p class="info-text">A ONG realiza projetos em áreas como educação, saúde e meio ambiente, promovendo a integração e a qualidade de vida dos moradores.</p>
             </div>
@@ -47,4 +47,3 @@
     </div>
 </body>
 </html>
-
